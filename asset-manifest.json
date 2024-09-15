@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/battleship_game/static/css/main.2c124b86.css",
-    "main.js": "/battleship_game/static/js/main.2afc46ce.js",
+    "main.js": "/battleship_game/static/js/main.26e62fd3.js",
+    "static/js/453.58493269.chunk.js": "/battleship_game/static/js/453.58493269.chunk.js",
     "static/media/water_child.gif": "/battleship_game/static/media/water_child.c623263bfedd3977252b.gif",
     "static/media/start_bg_one_piece.jpg": "/battleship_game/static/media/start_bg_one_piece.ee0cda80bd49af9022a3.jpg",
     "static/media/Sunny_Go.jpg": "/battleship_game/static/media/Sunny_Go.422459ae2adc73bd32cf.jpg",
@@ -9,10 +10,11 @@
     "static/media/Marine_ship.png": "/battleship_game/static/media/Marine_ship.9273147f53876948b6cc.png",
     "index.html": "/battleship_game/index.html",
     "main.2c124b86.css.map": "/battleship_game/static/css/main.2c124b86.css.map",
-    "main.2afc46ce.js.map": "/battleship_game/static/js/main.2afc46ce.js.map"
+    "main.26e62fd3.js.map": "/battleship_game/static/js/main.26e62fd3.js.map",
+    "453.58493269.chunk.js.map": "/battleship_game/static/js/453.58493269.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2c124b86.css",
-    "static/js/main.2afc46ce.js"
+    "static/js/main.26e62fd3.js"
   ]
 }
