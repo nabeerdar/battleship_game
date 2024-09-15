@@ -1,0 +1,125 @@
+.wrapper-div {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-color: aquamarine;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./images/beach.gif'); 
+  background-size: cover;
+  background-position: center;
+}
+
+.child-div {
+    /* height: 30vh; */
+    width: 70vw;
+    background-color: cyan;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('./images/water_child.gif'); 
+    background-size: cover;
+    background-position: center;
+
+}
+.attacks{
+  display: flex;
+  justify-content: center;
+  margin: 0.1em 0em;
+}
+.sunny-go {
+  position: relative;
+  background-image: url('./images/Sunny_Go.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 30vw;
+  height: 30vw;
+}
+
+.sunny-go-attributes {
+  position: absolute; 
+  bottom: 0;
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  background-color: black;
+}
+.marine-ship {
+  position: relative;
+  background-image: url('./images/Marine_ship.png');
+  background-size: cover;
+  background-position: center;
+  width: 30vw;
+  height: 30vw;
+
+}
+
+
+
+.marine-attributes {
+  position: absolute; 
+  bottom: 0; 
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  background-color: black;
+}
+
+.sunny-hp {
+  background-color: white;
+  width: 27%;
+  padding-left: 2%;
+  box-sizing: border-box;
+}
+
+.sunny-hp-danger{
+  background-color: white;
+  color: rgb(255, 93, 93);
+  width: 27%;
+  padding-left: 2%;
+  box-sizing: border-box;
+}
+.sunny-mp-container{
+  width: fit-content;
+}
+
+.sunny-mp {
+  background-color: white;
+  width: 120%;
+  padding-left: 2%;
+  border: 1px solid orange;
+  box-sizing: border-box;
+}
+
+.marine-hp{
+  background-color: white;
+  width: 27%;
+  padding-left: 2%;
+  box-sizing: border-box;
+}
+
+.marine-hp-danger{
+  background-color: white;
+  color: rgb(255, 93, 93);
+  width: 27%;
+  padding-left: 2%;
+  box-sizing: border-box;
+}
+.marine-mp-container{
+  width: fit-content;
+}
+.marine-mp {
+  background-color: white;
+  width: 120%;
+  padding-left: 2%;
+  border: 1px solid orange;
+  box-sizing: border-box;
+}
+.error {
+  background-color: red !important;
+  transition: background-color 0.4s;
+}
