@@ -12,6 +12,7 @@ function App() {
         <Router>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route exact path="/battleship_game" element={<Home />} />
             <Route path="/battleship" element={<Battleship />} />
             <Route path="/map" element={<Map />} />
           </Routes>
